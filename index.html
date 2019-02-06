@@ -1,24 +1,261 @@
-<!doctype html>
-<html>
-    <head>
-	  <meta charset='utf-8'>
-	  <title>Мой любимый французский город</title>
-	</head>
-	<body>
-	<center>
-	<h1>Bordeaux</h1>
-	<img src='Bordeaux.jpg' alt='Bordeaux vous manque'>
-	<p><b><u><i>Население Бордо: 246 586 человек</i></u></b></p>
-	<i><b><a href='https://ru.wikipedia.org/wiki/%D0%91%D0%BE%D1%80%D0%B4%D0%BE'>Ссылка Википедии</i></b></a>
-	<br>
-	<i><b><a href='https://github.com/BlairWauldorf'>Ссылка на другие проекты</i></b></a>
-	</center>
-	<i><b>Достопримечательности:</i></b>
-	<ol>
-	<li>Площадь Биржи</li>
-	<li>Собор Сен-Андре</li>
-	<li>Площадь Кинконс</li>
-	<li>Базилика Сен-Мишель</li>
-	</ol>
-	</body>
-</html>
+<!DOCTYPE html> 
+<html lang="ru"> 
+
+<head> 
+<meta charset="UTF-8"> 
+<title>Личная страница</title> 
+<link rel="stylesheet" href="style.css"> 
+</head> 
+
+
+<style> 
+p { 
+display: inline-block; 
+} 
+
+h1{ 
+font-weight: 400; 
+display:inline-block; 
+margin: auto; 
+} 
+h1::after { 
+content:""; 
+display:block; 
+margin: auto; 
+height:2px; 
+background-color:#D0A9F5 ; 
+width:60%; 
+transition:all 1s; 
+} 
+h1:hover::after { 
+width:100%; 
+} 
+h3{ 
+font-weight: 400; 
+display:inline-block; 
+margin: auto; 
+} 
+h3::after { 
+content:""; 
+display:block; 
+margin: auto; 
+height:2px; 
+background-color:#D0A9F5 ; 
+width:60%; 
+transition:all 1s; 
+} 
+h3:hover::after { 
+width:100%; 
+} 
+
+div{ 
+font-weight: 400; 
+display:inline-block; 
+margin: auto; 
+} 
+div::after { 
+content:""; 
+display:block; 
+margin: auto; 
+height:2px; 
+
+width:60%; 
+transition:all 1s; 
+} 
+div:hover::after { 
+width:100%; 
+} 
+
+
+
+
+.menu__item1{ 
+display: inline; 
+} 
+.menu__href1{ 
+margin: 30px; 
+padding: 10px; 
+background:#F0F8FF ; 
+border: 1px solid white; 
+border-radius: 20%; 
+color:#F0FFFF ; 
+} 
+
+.menu__item{ 
+display: inline; 
+} 
+.menu__href{ 
+margin: 30px; 
+padding: 10px; 
+background: #F0F8FF; 
+border: 1px solid white; 
+border-radius: 20%; 
+color:#F0FFFF ; 
+} 
+
+
+
+div.a { 
+
+background:  #FFFAFA
+
+width: 380px; 
+
+height:253px ; 
+transition: 0.4s; 
+
+} 
+div.a:hover { 
+transform: scale(1.15, 1.15);border-radius: 3px; 
+} 
+
+div.f { 
+
+background: #FFFAFA
+
+width: 380px;  
+border-radius: 3px; 
+height:253px ; 
+transition: 0.4s; 
+
+} 
+div.f:hover { 
+transform: scale(1.15, 1.15);border-radius: 3px; 
+} 
+div.g { 
+
+background: #FFFAFA 
+
+width: 380px; 
+border-radius: 3px; 
+height:253px ; 
+transition: 0.4s; 
+
+} 
+div.g:hover { 
+transform: scale(1.15, 1.15);border-radius: 3px; 
+} 
+div.s { 
+
+background:  #FFFAFA
+
+width: 380px;  
+
+height:253px ;  
+transition: 0.4s; 
+border-radius: 3px; 
+
+} 
+div.s:hover { 
+transform: scale(1.15, 1.15); 
+border-radius: 3px; 
+} 
+div.kar { 
+
+background: #FFFAFA
+width: 1000px;
+
+height:1000px; 
+transition: 0.4s; 
+
+} 
+
+
+</style> 
+<body> 
+<body bgcolor="#E6E0F8"  
+  bgproperties="fixed">
+<header> 
+ <h1><b><i>ПРИВЕТ!</i></b></h1> 
+
+</header> </head> 
+<body> 
+
+<nav> 
+<ul> 
+<li class="menu__item1"> 
+<a class="menu__href1" href="#art1"> <font color=#585858 face='Times New Roman'><b>ЛИЧНАЯ ИНФОРМАЦИЯ</b></font></a> 
+</li> 
+<li class="menu__item"> 
+<a class="menu__href" href="#art2"><font color=#585858 face='Times New Roman'><b>ФИЛОЛОГИЯ & IT</b></font></a> 
+</li> 
+<li class="menu__item"> 
+<a class="menu__href" href="#art3"><font color=#585858 face='Times New Roman'><b>+/- ОФОРМЛЕНИЯ САЙТОВ</b></font></a> 
+</li> 
+</ul> 
+</nav> 
+</body> 
+
+
+<main> 
+<article id="art1"> 
+<header> 
+<h2></h2> 
+<h3>ЛИЧНАЯ ИНФОРМАЦИЯ</h3> 
+</header> 
+
+<div class="a"></div> 
+<img src='1.jpg' width='350' height='250' alt='Je vous manque'>
+<H4>ИМЯ</H4> <i>- Федунова Арина</i>
+<H4>ВОЗРАСТ</H4> <i>- 18 лет </i>
+<H4>МЕСТО УЧЕБЫ</H4><i> - НИУ ВШЭ,факультет филологии</i>
+<h5></h5>
+<br><table cols='3'width='50%'  border=0 cellspacing="0" cellpadding="7">
+    <tr>
+   <th></th> <th><font color=#8A0829>НАУЧНЫЕ ИНТЕРЕСЫ</th></font> <th> <font color=#8A0829>ЕЩЕ НЕМНОГО ОБО МНЕ</th></font> 
+    </tr>
+    <tr>
+    <td> <img src='2.jpg' width='250' height='350'> </td>
+	<td>
+    <font size='3'  face='Times New Roman'> <br>Не смотря на то, что жизнь меня закинула на филфак моей страстью можно назвать - химию. В школе я была настоящим снобом, когда дело касалось химии.</br> 
+<br>Но продолжилось это недолго, всего два года. Однако среди томиков Пушкина, Маяковского и Хаксли у меня до сих пор стоят учебные пособия по химии для 9 класса, для 1 курса университета.</br>
+<br>Еще я очень люблю зарубежную литературу. Особенно книги скандинавских писателей (отдельную часть моего сердца занимают книи про Муми-троллей)Русскую я читаю для поддержания меланхолического настроения. </br></font>
+    </td>
+    <td>
+<font size='3'  face='Times New Roman'> <br>Почти 9 лет занималась художественной гимнастикой, хотя просила маму отвести меня на фигурное катание. Так и не дождавшись, ходила сама в соседний ледовый дворец.</br> 
+<br>В 11 классе решила сама сшить платье и случайно получила 2ой разряд по  шитью. Платье сшила, обрадовала всех, вспоминаю его и радуюсь, какая я молодец.</br>
+<br>Обожаю Олдоса Хаксли, Рэя Бредбери и Чехова (его рассказы были первыми осознанными произведениями, которые я прочитала, за исключением Пушкина "Руслан и Людмила")</br></font>
+    </td>
+    </tr>
+    </table></br>
+</article> 
+</main> 
+</body> 
+
+<body> 
+
+<main> 
+<article id="art2"> 
+<header>  
+<h2></h2> 
+<h3>ФИЛОЛОГИЯ & IT</h3> 
+</header>
+<br><table cols='3'width='50%'  border=0 cellspacing="0" cellpadding="7">
+<tr>
+   <th></th> <th></th>  
+   </tr>
+  <tr> 
+   <td> <font size='3'  face='Times New Roman'>Сегодня высокие технологии являются неотъемлемой частью нашей жизни. Как-то я сидела и набирала этот текст. 
+<br>А еще мне нужно было сходить в РГБ и найти несколько книг, чтобы хорошо написать курсовую. Но мне не пришлось выходить из дома, ехать с недовольными гражданами в метро.
+<br>Я просто зашла на сайт библиотеки, нашла нужный мне материал и прочитала с компьютера. Или с телефона.
+ <br>Кстати, я не раз дописывала эссе или рецензии в "Ворде", пока куда-то ехала. нашла.Удобная штука, надо сказать, эти высокие технологии.</font></td>
+ <td><img src='3.jpg' width='250' height='250'></td>
+ </tr>
+ </table>
+ </article> 
+</main> 
+</body> 
+
+<body> 
+<main> 
+<article id="art3"> 
+<header> 
+<h2></h2> 
+<h3>+/- ОФОРМЛЕНИЯ САЙТОВ</h3> 
+
+</header> 
+<div class="f"></div> 
+<p>Игра на фортопиано.</p> 
+<div class="g"></div> 
+<p>Мыловарение.</p> 
+<div
